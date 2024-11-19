@@ -2,12 +2,12 @@
 
 int main(){
 	// khai bao bien 
-	int dai_hcn= 8,rong_hcn = 6, P, S;
-	// Tinh dien tich va chu vi hcn
-	P = 2 * (dai_hcn + rong_hcn);
-	S = dai_hcn * rong_hcn;
+	int canh_hv = 6, P, S;
+	// Tinh dien tich va chu vi hv
+	P = 4 * 6;
+	S = 4*4;
 	// in ket qua ra man hinh
-	printf("Chu vi hinh chu nhat la: %d \n", P);
-	printf("Dien tich hinh chu nhat la: %d \n", S);
+	printf("Chu vi hinh vuong la: %d \n", P);
+	printf("Dien tich hinh vuong la: %d \n", S);
 	return 0;
 }
